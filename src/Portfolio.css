@@ -24,11 +24,12 @@ h1{
     text-align: center;
 }
 .profile{
-    position:absolute;
+    position: relative;
+    position: absolute;
     top: 25vh;
     left: 5vw;
     width: 50vw;
-    height: 50vh;
+    height: 61vh;
     border: 3px solid rgb(157, 170, 164);
     border-radius: 30px;
     background-color: rgb(16, 201, 75);
@@ -40,6 +41,7 @@ h1{
     padding-right: 1vw;
     padding : 2vw;
     padding-top: 2vh;
+    font-family: "Space Grotesk", sans-serif;
 }
 
 .profile p{
@@ -51,24 +53,117 @@ h1{
     margin-top: 2px;
     padding : 2vw;
     padding-top: 2px;
+    font-family: "Space Grotesk", sans-serif;
 }
- .links p{
-    font-size: 20px;
-    padding-left: 7vw;
-    margin-top: 0px;
-     display: space-between;
-
-}
-.links{
-    margin-top: 2px;
-    border: 3px solid rgb(157, 170, 164);
-    position: absolute;
-    top: 10vh;
-    width: 25vw;
-    height:35vh;
-    left: 3vw;
+ .links{
    
-}
-.links hr{
-    display: none;
-}
+    width: 20vw;
+    height: 35vh;
+    padding: 2vw;
+    top: 0vh;
+    left: 4vw;
+    position:absolute;
+    position: relative;
+ }
+ .picture{
+    border: 3px solid rgb(157, 170, 164);
+    width: 20vw;
+    height: 38vh;
+    top: 18vh;
+    left: 29vw;
+    position:absolute;
+    
+ }
+ .L1{
+    position: absolute;
+    top: 4vh;
+   
+    width: 23vw;
+    height: 5vh;
+    left: 0vw;
+ }
+ .L2{
+    position: absolute;
+    top: 13vh;
+    
+    width: 23vw;
+    height: 5vh;
+    left: 0vw;
+ }
+  .L3{
+    position: absolute;
+    top: 22vh;
+   
+    width: 23vw;
+    height: 5vh;
+    left: 0vw;
+ }
+  .L4{
+    position: absolute;
+    top: 29vh;
+   
+    width: 23vw;
+    height: 5vh;
+    right: 2vw;
+    position: relative;
+
+ }
+ .LS5{
+    position: absolute;
+   
+    width: 3vw;
+    height: 5vh;
+ }
+ .LS6{
+    position: absolute;
+  
+    width: 3vw;
+    height: 5vh;
+ }
+ .LS7{
+    position: absolute;
+    
+    width: 3vw;
+    height: 5vh;
+ }
+ .LS8{
+    position: absolute;
+    
+    width: 3vw;
+    height: 5vh;
+ }
+ 
+ .L1 h3{
+    text-align: end;
+ }
+ .L2 h3{
+    text-align: center;
+ }
+ .L3 h3{
+    text-align: end;
+ }
+ .L4 h3{
+    text-align: center;
+ }
+ .LS5 img{
+     width: 3vw;
+    height: 5vh;
+ }
+ .LS6 img{
+     width: 3vw;
+    height: 5vh;
+    border-radius: 30px;
+ }
+ .LS7 img{
+     width: 3vw;
+    height: 5vh;
+ }
+ .LS8 img{
+     width: 3vw;
+    height: 5vh;
+    border-radius: 30px
+ }
+   
+                
+      
+    
