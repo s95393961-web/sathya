@@ -1,5 +1,6 @@
 body{
     background-color: rgb(3, 3, 32);
+    position: relative;
 }
 h1{
     color: rgb(3, 48, 28);
@@ -19,6 +20,55 @@ h1{
     font-weight: bold;
     left:34vw;
     padding: 0px;
-    background-color: rgb(3, 53, 41);
+    background-color: rgb(16, 201, 75);
     text-align: center;
+}
+.profile{
+    position:absolute;
+    top: 25vh;
+    left: 5vw;
+    width: 50vw;
+    height: 50vh;
+    border: 3px solid rgb(157, 170, 164);
+    border-radius: 30px;
+    background-color: rgb(16, 201, 75);
+
+}
+.profile h2{
+    font-size: 30px;
+    display: inline;
+    padding-right: 1vw;
+    padding : 2vw;
+    padding-top: 2vh;
+}
+
+.profile p{
+    font-size: 20px;
+    display: inline;
+}
+.profile h3{
+    font-size: 20px;
+    margin-top: 2px;
+    padding : 2vw;
+    padding-top: 2px;
+}
+ .links p{
+    font-size: 20px;
+    padding-left: 7vw;
+    margin-top: 0px;
+     display: space-between;
+
+}
+.links{
+    margin-top: 2px;
+    border: 3px solid rgb(157, 170, 164);
+    position: absolute;
+    top: 10vh;
+    width: 25vw;
+    height:35vh;
+    left: 3vw;
+   
+}
+.links hr{
+    display: none;
 }
