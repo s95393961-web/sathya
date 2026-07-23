@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(3, 3, 32);
+    background: linear-gradient(to right, rgb(244, 247, 246), rgb(157, 222, 243), rgb(203, 224, 238));
     position: relative;
 }
 h1{
@@ -9,161 +9,127 @@ h1{
 }
 .top{
     position: relative;
-    top: 1vh;
-    border: 3px solid rgb(157, 170, 164);
+    top: 1px;
+    border: 3px solid rgb(11, 245, 225);
     width:32vw;
     height:fit-content;
-    border-radius: 30px;
+    border-radius: 100px;
     font-size: 30px;
-    color: rgb(12, 13, 13);
+    color: rgb(232, 238, 238);
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     left:34vw;
     padding: 0px;
-    background-color: rgb(16, 201, 75);
+    background-color: rgb(103, 209, 136);
     text-align: center;
+    font-family: "Great Vibes", cursive;
 }
-.profile{
-    position: relative;
-    position: absolute;
-    top: 25vh;
-    left: 5vw;
-    width: 50vw;
-    height: 61vh;
-    border: 3px solid rgb(157, 170, 164);
-    border-radius: 30px;
-    background-color: rgb(16, 201, 75);
-
-}
-.profile h2{
+   .profile{
+        width: 50vw;
+        height: 60vh;
+        border: 3px solid rgb(2, 2, 2) ;
+        position:relative;
+        color: #e7eeec;
+        border-radius: 100px;
+        font-family: "Great Vibes", cursive;
+        position: absolute;
+        top: 120px;
+         background-color: rgba(10, 10, 10, 0.3);
+         left: 25vw;
+    }
+.profile label{
     font-size: 30px;
-    display: inline;
-    padding-right: 1vw;
-    padding : 2vw;
-    padding-top: 2vh;
-    font-family: "Space Grotesk", sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    color: #f5f108;
+    text-align: start;
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: "Great Vibes", cursive;
+}
+#course{
+    font-size: 20px;
+     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    color: #fffafa;
+    text-align: start;
+    display: block;
+    margin-top: 0px;
+    font-family: "Great Vibes", cursive;
+    
+}
+.img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    
+}
+td{
+    font-weight: bold;
 }
 
-.profile p{
-    font-size: 20px;
-    display: inline;
-}
-.profile h3{
-    font-size: 20px;
-    margin-top: 2px;
-    padding : 2vw;
-    padding-top: 2px;
-    font-family: "Space Grotesk", sans-serif;
-}
- .links{
-   
-    width: 20vw;
-    height: 35vh;
-    padding: 2vw;
-    top: 0vh;
-    left: 4vw;
-    position:absolute;
-    position: relative;
- }
- .picture{
-    border: 3px solid rgb(157, 170, 164);
-    width: 20vw;
-    height: 38vh;
-    top: 18vh;
-    left: 29vw;
-    position:absolute;
-    
- }
- .L1{
-    position: absolute;
-    top: 4vh;
-   
-    width: 23vw;
-    height: 5vh;
-    left: 0vw;
- }
- .L2{
-    position: absolute;
-    top: 13vh;
-    
-    width: 23vw;
-    height: 5vh;
-    left: 0vw;
- }
-  .L3{
-    position: absolute;
-    top: 22vh;
-   
-    width: 23vw;
-    height: 5vh;
-    left: 0vw;
- }
-  .L4{
-    position: absolute;
-    top: 29vh;
-   
-    width: 23vw;
-    height: 5vh;
-    right: 2vw;
-    position: relative;
 
- }
- .LS5{
-    position: absolute;
+.img1{
+    width: 30px;
+    height: 30px;
+      border-radius: 100px;
+}
+.img2{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+    .img3{
+        width: 30px;
+        height: 30px;
+        border-radius: 100px;
+    }
+table{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#img{
+   width: 18vw;
+   height: 36vh;
+   top: 50px;
+   left: 50%;
+   position: absolute;
+   overflow: hidden;
+   border-radius: 100%;
+   border: 3px solid rgb(11, 245, 225);
+}
+#i{
+   width: 20vw;
+   height: 70vh;
+   position: absolute;
+   top: 70px;
+
    
-    width: 3vw;
-    height: 5vh;
- }
- .LS6{
+   
+}
+#btn{
     position: absolute;
-  
-    width: 3vw;
-    height: 5vh;
- }
- .LS7{
-    position: absolute;
-    
-    width: 3vw;
-    height: 5vh;
- }
- .LS8{
-    position: absolute;
-    
-    width: 3vw;
-    height: 5vh;
- }
+    top: 320px;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(7, 62, 134);
+    color: #fffafa;
+    font-size: 20px;
+    font-family: "Great Vibes", cursive;
+}
+ .img4{
+        width: 30px;
+        height: 30px;
+        border-radius: 100px;
+    }
+
  
- .L1 h3{
-    text-align: end;
- }
- .L2 h3{
-    text-align: center;
- }
- .L3 h3{
-    text-align: end;
- }
- .L4 h3{
-    text-align: center;
- }
- .LS5 img{
-     width: 3vw;
-    height: 5vh;
- }
- .LS6 img{
-     width: 3vw;
-    height: 5vh;
-    border-radius: 30px;
- }
- .LS7 img{
-     width: 3vw;
-    height: 5vh;
- }
- .LS8 img{
-     width: 3vw;
-    height: 5vh;
-    border-radius: 30px
- }
-   
-                
+    
+         #bg{
+            width: 100vw;
+            height: 100vh;
+         }       
       
     
