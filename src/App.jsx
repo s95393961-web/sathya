@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import Portfolio from './Portfolio.jsx'
+import Resume from './Resume.jsx'
 
 
 
@@ -12,7 +13,8 @@ function App() {
 
   return (
     <>
-    <Portfolio></Portfolio>
+    
+    <Resume></Resume>
     </>
   )
 }
